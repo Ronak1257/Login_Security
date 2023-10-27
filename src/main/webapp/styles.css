@@ -1,0 +1,180 @@
+@charset "UTF-8";
+*{
+   box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: black;
+}
+.hemainclass{
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201014/pngtree-abstract-waving-particle-technology-background-abstract-gradient-design-template-for-brochures-image_416117.jpg");
+	background-size: cover;
+	background-color: #0000ff;
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin:0 auto;
+	padding:10px 10px;
+	border-bottom:1px solid white;
+}
+.helogoimg{
+	width: 75px; 
+	height: 50px; 
+	object-fit: cover;
+	border-radius: 50px 15px;
+}  
+.heclass1{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+.heclass2{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+.hemaina{
+	font-size: 20px;
+	color: white;
+	margin: auto 10px;
+	padding: 10px auto;
+}
+.hemainb{
+	font-size: 20px;
+	color: white;
+	margin:auto 10px;
+	padding: 10px auto;
+	display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 5px white;
+    padding: 0.5em 0.6em;
+    text-decoration: none;
+}
+.hemainb:hover{
+	box-shadow: 0px 0px 50px white;
+	color:white;
+	text-decoration:solid;
+	transform: scale(1.1);
+}
+.hobody{
+	background-image: url("https://www.shutterstock.com/shutterstock/videos/1075367195/thumb/1.jpg?ip=x480");
+	background-size: fill;
+	background-color: #0000ff;
+	border-bottom: 1px solid white;
+}
+.hof{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items: center;
+	padding: 50px;
+}
+
+.hoquot{
+	font-size: 20px;
+	color: white;
+}
+.heimg{
+	width:400px;
+	height:auto;
+	border-radius: 15px 50px;
+}
+.heimg:hover{
+	box-shadow: 0px 0px 50px black;
+	transform: scale(1.1);
+}
+
+.fomainclass{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: black;
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items: center;
+}
+.foclass1{
+	margin-left:20px;
+	color: white;
+}
+.foclass2{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
+}
+.fologoimg{
+	width:50px;
+	height:auto;
+	border-radius: 100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:30px;
+	margin-left: 30px;
+}
+.fologoimg:hover{
+	box-shadow: 0px 0px 20px white;
+	transform: scale(1.1);
+}
+.damain{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items:center;
+	background-image: url("https://img.freepik.com/free-vector/bright-wavy-background_52683-59613.jpg");
+	background-size: cover;
+	background-color: #0000ff;
+}
+.daborder{
+	background-color: black;
+	margin-top:206px;
+	margin-bottom:205px;
+	padding:30px;
+	border-radius: 15px 50px;
+	border-bottom: 10px solid blue;
+	border-right:5px dashed  blue;
+	box-shadow: 10px 0 80px -2px black;
+}
+.daclass1{
+	font-size: 150%;
+	color: red;
+}
+.daclass2{
+	color: white;
+}
+.dat1{
+	font-size: 150%;
+	padding:10px;
+	padding-right: 50px;
+	color:red;
+	text-align: start;
+}
+.dat2{
+	text-align: start;
+	font-size: 150%;
+}
+.abmain{
+	background-image: url("https://accessnsite.com/wp-content/uploads/2020/05/page-heading-background-contact-us.jpg");
+	background-color: black;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items:center;
+}
+.abclass1{
+	width:700px;
+	height:auto;
+	border-radius: 400px;
+}
+.abclass2{
+	margin:1px;
+	color: white;
+	font-size:150%;
+}
+.abclass2,h1{
+	text-align: center;
+}
